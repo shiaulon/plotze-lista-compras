@@ -1,0 +1,30 @@
+name: lista_compras
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.4
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/images/fundo.PNG
+    - assets/images/homem.png
+    - assets/images/lin.jpg
+    - assets/images/purp.webp
+    - assets/images/new.webp
+    - assets/images/yo.jpg
+    - assets/images/white.jpg
